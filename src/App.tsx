@@ -720,7 +720,7 @@ export default function App() {
                     <path d="M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z" />
                   </svg>
                   <div className="flex flex-col text-left">
-                    <span className="font-extrabold text-[15px] leading-tight text-white/95">Engenharia</span>
+                    <span className="font-extrabold text-[15px] leading-tight text-white/95">Jacson - Engenharia</span>
                     <span className="font-semibold text-[13px] opacity-100 tracking-wide text-white/90 focus:outline-none">(47) 9 8838-2276</span>
                   </div>
                 </a>
@@ -731,7 +731,7 @@ export default function App() {
                     <path d="M14.842 12.045l-1.931-.55a.723.723 0 0 0-.713.186l-.472.478a.707.707 0 0 1-.765.16c-.913-.367-2.835-2.063-3.326-2.912a.694.694 0 0 1 .056-.774l.412-.53a.71.71 0 0 0 .089-.726L7.38 5.553a.723.723 0 0 0-1.125-.256c-.539.453-1.179 1.14-1.256 1.903-.137 1.343.443 3.036 2.637 5.07 2.535 2.349 4.566 2.66 5.887 2.341.75-.18 1.35-.903 1.727-1.494a.713.713 0 0 0-.408-1.072z" />
                   </svg>
                   <div className="flex flex-col text-left">
-                    <span className="font-extrabold text-[15px] leading-tight text-white/95">Fabricação</span>
+                    <span className="font-extrabold text-[15px] leading-tight text-white/95">John - Fabricação</span>
                     <span className="font-semibold text-[13px] opacity-100 tracking-wide text-white/90">(47) 9 9671-3889</span>
                   </div>
                 </a>
