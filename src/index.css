@@ -4,13 +4,13 @@
    TOKENS E CONFIGURAÇÃO BASE
    =========================== */
 :root {
-  --realce-fundo: rgba(37, 99, 235, 0.12);
+  --realce-fundo: rgba(227, 82, 5, 0.12);
   --espaco-horizontal: 14px;
   --espaco-vertical: 4px;
   --espessura-bordas: 2px;
-  --cor-bordas: #2563eb;
+  --cor-bordas: #E35205;
   --tamanho-marcadores: 8px;
-  --cor-marcadores: #1d4ed8;
+  --cor-marcadores: #C24503;
 }
 
 @theme {
@@ -28,7 +28,7 @@ body {
 }
 
 ::selection {
-  background-color: #2563eb;
+  background-color: #E35205;
   color: white;
 }
 
@@ -36,10 +36,10 @@ body {
    NAVEGAÇÃO
    =========================== */
 .nav-scrolled {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(5, 5, 5, 0.88);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(229, 231, 235, 0.8);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.8);
   box-shadow: 0 1px 24px rgba(0, 0, 0, 0.06);
 }
 
@@ -56,7 +56,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #2563eb;
+  background: #E35205;
   border-radius: 2px;
   transition: width 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .cta-btn:hover {
-  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 8px 30px rgba(227, 82, 5, 0.4);
   transform: translateY(-1px);
 }
 
@@ -110,7 +110,7 @@ body {
   left: 0;
   width: 320px;
   height: 320px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.07) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(227, 82, 5, 0.07) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
   z-index: 0;
@@ -136,7 +136,7 @@ body {
   right: -15%;
   width: 55%;
   height: 70%;
-  background: radial-gradient(circle, rgba(147, 197, 253, 0.35) 0%, rgba(96, 165, 250, 0.1) 70%);
+  background: radial-gradient(circle, rgba(227, 82, 5, 0.15) 0%, rgba(255, 107, 26, 0.05) 70%);
 }
 
 .hero-blob-2 {
@@ -144,7 +144,7 @@ body {
   left: -10%;
   width: 40%;
   height: 50%;
-  background: radial-gradient(circle, rgba(226, 232, 240, 0.5) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(227, 82, 5, 0.05) 0%, transparent 70%);
   animation-delay: 3s;
 }
 
@@ -171,7 +171,7 @@ body {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: #2563eb;
+  background: #E35205;
   border-radius: 50%;
   opacity: 0;
   animation: particleFloat 12s ease-in-out infinite;
@@ -277,7 +277,7 @@ body {
 
 /* Glassmorphism card */
 .glass-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(25, 25, 25, 0.4);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -286,7 +286,7 @@ body {
 
 /* Texto gradiente */
 .gradient-text {
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+  background: linear-gradient(135deg, #E35205 0%, #FF6B1A 50%, #FF8A47 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -333,7 +333,7 @@ body {
    CAIXA DESTAQUE & SETA (Divisores)
    =========================== */
 .caixa-destaque {
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(227, 82, 5, 0.1);
   backdrop-filter: blur(4px);
   padding: var(--espaco-vertical) var(--espaco-horizontal);
   position: relative;
@@ -389,7 +389,7 @@ body {
 
 .service-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 24px 48px -12px rgba(37, 99, 235, 0.15);
+  box-shadow: 0 24px 48px -12px rgba(227, 82, 5, 0.15);
   border-color: rgba(191, 219, 254, 0.8) !important;
 }
 
@@ -400,7 +400,7 @@ body {
   right: -60px;
   width: 160px;
   height: 160px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(227, 82, 5, 0.12) 0%, transparent 70%);
   border-radius: 50%;
   opacity: 0;
   transition: opacity 0.4s ease;
@@ -420,7 +420,7 @@ body {
   left: 50%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(37, 99, 235, 0.12) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(227, 82, 5, 0.12) 0%, transparent 65%);
   transform: translate(-50%, -50%);
   pointer-events: none;
   animation: diffGlowPulse 5s ease-in-out infinite;
@@ -477,7 +477,7 @@ body {
 }
 
 .pulse-ring:hover::before {
-  border-color: rgba(37, 99, 235, 0.4);
+  border-color: rgba(227, 82, 5, 0.4);
   inset: -8px;
   animation: pulseRing 1s ease-in-out infinite;
 }
@@ -514,7 +514,7 @@ body {
   left: -100%;
   width: 60%;
   height: 100%;
-  background: linear-gradient(105deg, transparent 40%, rgba(37, 99, 235, 0.04) 50%, transparent 60%);
+  background: linear-gradient(105deg, transparent 40%, rgba(227, 82, 5, 0.04) 50%, transparent 60%);
   animation: ctaShimmer 4s ease-in-out infinite;
   pointer-events: none;
 }
@@ -584,8 +584,8 @@ body {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(to right, rgba(37, 99, 235, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(37, 99, 235, 0.03) 1px, transparent 1px);
+    linear-gradient(to right, rgba(227, 82, 5, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(227, 82, 5, 0.03) 1px, transparent 1px);
   background-size: 32px 32px;
   pointer-events: none;
   z-index: 0;
@@ -608,16 +608,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #111;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #333;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2563eb;
+  background: #E35205;
 }
 
 /* ===========================
