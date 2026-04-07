@@ -436,10 +436,10 @@ export default function App() {
             >
               <div className="relative group">
                 <div className="absolute inset-0 bg-[#E35205]/20 blur-xl rounded-full group-hover:bg-[#E35205]/40 transition-all duration-500" />
-                <div className="relative w-auto h-16 flex items-center justify-center cursor-pointer">
-                  <img 
-                    src="/logo.png" 
-                    alt="Metal Mach Logo" 
+                <div className="relative w-auto h-20 flex items-center justify-center cursor-pointer">
+                  <img
+                    src="/logo.png"
+                    alt="Metal Mach Logo"
                     className="h-full w-auto object-contain"
                   />
                 </div>
@@ -803,24 +803,20 @@ export default function App() {
                   <button
                     key={category.id}
                     onClick={() => setActiveCategory(category.id)}
-                    className={`flex-shrink-0 lg:w-full text-left p-5 rounded-2xl border transition-all duration-300 group snap-center ${
-                      activeCategory === category.id 
-                        ? 'bg-[#E35205] border-[#E35205] shadow-[0_10px_30px_-10px_rgba(227,82,5,0.4)]' 
-                        : 'bg-[#111111] border-[#222222] hover:border-[#333333]'
-                    }`}
+                    className={`flex-shrink-0 lg:w-full text-left p-5 rounded-2xl border transition-all duration-300 group snap-center ${activeCategory === category.id
+                      ? 'bg-[#E35205] border-[#E35205] shadow-[0_10px_30px_-10px_rgba(227,82,5,0.4)]'
+                      : 'bg-[#111111] border-[#222222] hover:border-[#333333]'
+                      }`}
                   >
                     <div className="flex items-center gap-4">
-                      <span className={`text-sm font-black tabular-nums transition-colors ${
-                        activeCategory === category.id ? 'text-white' : 'text-[#666666] group-hover:text-[#999999]'
-                      }`}>
+                      <span className={`text-sm font-black tabular-nums transition-colors ${activeCategory === category.id ? 'text-white' : 'text-[#666666] group-hover:text-[#999999]'
+                        }`}>
                         {category.id}
                       </span>
-                      <div className={`h-px w-4 transition-colors ${
-                        activeCategory === category.id ? 'bg-white/40' : 'bg-[#333333]'
-                      }`} />
-                      <span className={`text-sm md:text-base font-bold transition-colors ${
-                        activeCategory === category.id ? 'text-white' : 'text-[#999999] group-hover:text-white'
-                      }`}>
+                      <div className={`h-px w-4 transition-colors ${activeCategory === category.id ? 'bg-white/40' : 'bg-[#333333]'
+                        }`} />
+                      <span className={`text-sm md:text-base font-bold transition-colors ${activeCategory === category.id ? 'text-white' : 'text-[#999999] group-hover:text-white'
+                        }`}>
                         {category.title}
                       </span>
                     </div>
@@ -853,15 +849,15 @@ export default function App() {
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {activeCategoryData.images.map((img, imgIdx) => (
-                      <motion.div 
+                      <motion.div
                         key={imgIdx}
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: imgIdx * 0.1 }}
                         className="group relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#111] border border-[#222] shadow-2xl shadow-black/40"
                       >
-                        <img 
-                          src={img} 
+                        <img
+                          src={img}
                           alt={`${activeCategoryData.title} - ${imgIdx + 1}`}
                           className="w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
                         />
@@ -935,9 +931,9 @@ export default function App() {
             <div className="lg:col-span-1 pr-6">
               <div className="flex items-center gap-2 mb-6">
                 <div className="w-auto h-12 flex items-center justify-center">
-                  <img 
-                    src="/logo.png" 
-                    alt="Metal Mach Logo" 
+                  <img
+                    src="/logo.png"
+                    alt="Metal Mach Logo"
                     className="h-full w-auto object-contain"
                   />
                 </div>
