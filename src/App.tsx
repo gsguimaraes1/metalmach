@@ -27,41 +27,120 @@ const SERVICES = [
   {
     id: 1,
     title: "Moldes para Rotomoldagem",
-    description: "Projetos desenvolvidos com precisão dimensional e foco absoluto em durabilidade estrutural.",
+    description: "Fabricamos moldes metálicos com foco em desempenho produtivo e durabilidade estrutural. Acompanhamos desde a análise até a entrega do molde pronto para produção.",
     icon: <Cpu className="w-5 h-5" />,
-    details: ["Fabricação", "Desenvolvimento Técnico", "Manutenção e Recuperação", "Melhoria Técnica"]
+    details: [
+      "Controle dimensional e geométrico",
+      "Compensação de retração do polietileno",
+      "Soldagem industrial qualificada",
+      "Facilidade de manutenção e limpeza",
+      "Acabamento técnico funcional"
+    ]
   },
   {
     id: 2,
     title: "Manutenção Industrial",
-    description: "Serviços de manutenção mecânica e estrutural rigorosa, com metodologia e segurança operacional.",
+    description: "Executamos serviços de manutenção mecânica e estrutural com metodologia e segurança operacional rigorosa.",
     icon: <Wrench className="w-5 h-5" />,
-    details: ["Corretiva e Preventiva", "Reforços Estruturais", "Recuperação de Componentes", "Apoio Técnico"]
+    details: [
+      "Manutenção corretiva e preventiva",
+      "Reforços estruturais e adaptações",
+      "Recuperação de componentes metálicos",
+      "Apoio técnico em paradas industriais"
+    ]
   },
   {
     id: 3,
-    title: "Engenharia e Montagem",
-    description: "Soluções sob medida para ambientes industriais complexos que demandam alto rigor de execução.",
+    title: "Engenharia e Montagem Industrial",
+    description: "Soluções sob medida para ambientes industriais complexos que demandam alta precisão e previsibilidade técnica.",
     icon: <Settings className="w-5 h-5" />,
-    details: ["Estruturas Metálicas", "Suportes e Bases Técnicas", "Montagem de Conjuntos", "Adequações"]
+    details: [
+      "Estruturas metálicas",
+      "Suportes, dispositivos e bases técnicas",
+      "Montagem de conjuntos mecânicos",
+      "Adequações conforme projeto do cliente"
+    ]
   }
 ];
 
 const DIFFERENTIATORS = [
   "Especialização em moldes para rotomoldagem",
-  "Foco técnico com engenharia de processo",
-  "Controle de qualidade auditável",
-  "Engenharia direta com o cliente (B2B)",
-  "Soluções puramente sob medida",
-  "Previsibilidade rigorosa de prazos"
+  "Foco em engenharia e processo técnico",
+  "Controle de qualidade em todas as etapas",
+  "Comunicação técnica direta com o cliente",
+  "Soluções personalizadas, não genéricas",
+  "Cumprimento rigoroso de prazos"
 ];
 
 const PROCESS_STEPS = [
-  { step: "01", title: "Análise Técnica", desc: "Entendimento dimensional da necessidade." },
-  { step: "02", title: "Definição de Solução", desc: "Escopo técnico e engenharia aplicada." },
-  { step: "03", title: "Fabricação Controlada", desc: "Execução com maquinário de precisão." },
-  { step: "04", title: "Inspeção e Validação", desc: "Garantias e testes de tolerância." },
-  { step: "05", title: "Entrega e Suporte", desc: "Start-up da operação e acompanhamento." }
+  { step: "01", title: "Análise Técnica", desc: "Análise técnica da necessidade." },
+  { step: "02", title: "Definição de Solução", desc: "Definição de solução e escopo." },
+  { step: "03", title: "Execução Controlada", desc: "Fabricação / execução controlada." },
+  { step: "04", title: "Inspeção e Validação", desc: "Inspeção e validação técnica." },
+  { step: "05", title: "Entrega e Suporte", desc: "Entrega e suporte ao cliente." }
+];
+
+const GALLERY = [
+  {
+    id: "01",
+    title: "Fabricação de Moldes para Rotomoldagem",
+    subtitle: "Projetos desenvolvidos com precisão dimensional e foco em durabilidade",
+    images: ["/portifolio/01/0004-escalada.webp", "/portifolio/01/001-escalada.webp", "/portifolio/01/002-escalada.webp", "/portifolio/01/003-escalada.webp", "/portifolio/01/005-escalada.webp", "/portifolio/01/WhatsApp Image 2026-01-22 at 12.47.03.webp"]
+  },
+  {
+    id: "02",
+    title: "Desenvolvimento Técnico de Moldes",
+    subtitle: "Da análise do projeto à entrega pronta para produção",
+    images: ["/portifolio/02/00-cerca.webp", "/portifolio/02/02-cerca.webp", "/portifolio/02/03-cerca.webp", "/portifolio/02/04-cerca.webp", "/portifolio/02/05-cerca.webp"]
+  },
+  {
+    id: "03",
+    title: "Manutenção e Recuperação de Moldes",
+    subtitle: "Reparo estrutural, ajustes e melhoria de desempenho produtivo",
+    images: ["/portifolio/03/00-reparo-polimento.webp", "/portifolio/03/02-reparo-planicidade-flange.webp", "/portifolio/03/02-reparo-porta-molde-solda.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.47.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.48 (1).webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.52.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.47.07 (1).webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.47.07.webp", "/portifolio/03/WhatsApp Image 2026-01-22.webp"]
+  },
+  {
+    id: "04",
+    title: "Melhoria Técnica de Moldes Existentes",
+    subtitle: "Otimização de estrutura solda e funcionalidade",
+    images: ["/portifolio/04/03-reparo-preenchimento-molde.webp", "/portifolio/04/04-reparo-preenchimento-molde.webp", "/portifolio/04/05-reparo-construcao-porta-molde.webp"]
+  },
+  {
+    id: "05",
+    title: "Soldagem Industrial Aplicada a Moldes",
+    subtitle: "Execução técnica com foco em resistência e acabamento funcional",
+    images: ["/portifolio/05/00-portal.webp", "/portifolio/05/01-portal.webp", "/portifolio/05/03-portal.webp"]
+  },
+  {
+    id: "06",
+    title: "Projetos Sob Medida para Rotomoldagem",
+    subtitle: "Soluções desenvolvidas conforme necessidade específica do cliente",
+    images: ["/portifolio/06/00-flange-2.webp", "/portifolio/06/00-flange.webp", "/portifolio/06/01-flange.webp", "/portifolio/06/20251008_193545.webp"]
+  },
+  {
+    id: "07",
+    title: "Adequações e Reforços Estruturais",
+    subtitle: "Intervenções técnicas para aumento de vida útil",
+    images: ["/portifolio/07/03-tanque.webp", "/portifolio/07/04-tanque(1).webp", "/portifolio/07/04-tanque.webp", "/portifolio/07/05-tanque.webp"]
+  },
+  {
+    id: "08",
+    title: "Montagem e Ajuste Final de Moldes",
+    subtitle: "Validação dimensional e preparação para operação",
+    images: ["/portifolio/08/00-tanque-200.webp", "/portifolio/08/01-tanque-200.webp", "/portifolio/08/02-tanque-200.webp", "/portifolio/08/05-tanque-200.webp", "/portifolio/08/06-tanque200.webp"]
+  },
+  {
+    id: "09",
+    title: "Engenharia Aplicada à Indústria",
+    subtitle: "Soluções metálicas com foco técnico e previsibilidade",
+    images: ["/portifolio/09/01-till.webp", "/portifolio/09/02-till.webp", "/portifolio/09/03-till.webp", "/portifolio/09/04-till.webp", "/portifolio/09/05-till.webp"]
+  },
+  {
+    id: "10",
+    title: "Execução com Método e Controle",
+    subtitle: "Processo estruturado do início ao fim",
+    images: ["/portifolio/10/01-plataforma-caracol.webp"]
+  }
 ];
 
 // Hook de scroll reveal dinâmico com GSAP e TextMotion Avançado
@@ -316,6 +395,7 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { scrollYProgress } = useScroll();
+  const [activeCategory, setActiveCategory] = useState(GALLERY[0].id);
   const heroY = useTransform(scrollYProgress, [0, 0.25], [0, 60]);
   const heroOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
@@ -327,6 +407,8 @@ export default function App() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const activeCategoryData = GALLERY.find(c => c.id === activeCategory) || GALLERY[0];
 
   return (
     <div className="min-h-screen bg-[#000000] text-[#F7F6F5] font-sans overflow-x-hidden">
@@ -366,7 +448,7 @@ export default function App() {
                 </div>
               </div>
               <span className="text-xl font-bold tracking-tight">
-                METAL <span className="text-[#E35205]">MACH</span>
+                METAL <span className="text-[#E35205]">MACH</span> <span className="hidden sm:inline-block text-[9px] font-medium opacity-40 ml-1 align-middle uppercase tracking-widest border-l border-white/20 pl-2">M&M SC SOLUÇÕES LTDA</span>
               </span>
             </motion.div>
 
@@ -503,29 +585,34 @@ export default function App() {
                 </div>
 
                 {/* Título com animação de texto */}
-                <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6 text-white drop-shadow-[0_4px_12px_rgba(255,255,255,0.7)] flex flex-col items-center gap-2">
-                  <span className="block hero-split-title">Fabricação de Moldes</span>
+                <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6 text-white flex flex-col items-center gap-2">
+                  <span className="block hero-split-title text-center">Fabricação de Moldes para Rotomoldagem</span>
                   <span className="block flex flex-wrap justify-center items-center gap-x-4">
-                    <span className="text-[#E35205] hero-split-orange drop-shadow-[0_4px_12px_rgba(227,82,5,0.4)]">&amp;</span>
-                    <span className="text-[#E35205] hero-split-orange drop-shadow-[0_4px_12px_rgba(227,82,5,0.4)]">Manutenção Industrial.</span>
+                    <span className="text-[#E35205] hero-split-orange">&amp;</span>
+                    <span className="text-[#E35205] hero-split-orange">Manutenção Industrial.</span>
                   </span>
                 </h1>
 
-                <p className="hero-split-paragraph text-lg md:text-xl text-[#F7F6F5] mb-10 max-w-2xl mx-auto leading-relaxed font-bold drop-shadow-[0_2px_10px_rgba(255,255,255,1)]">
-                  Atendemos manufaturas que exigem confiabilidade absoluta. Soluções de alta precisão desenhadas para resistir ao chão de fábrica moderno.
+                <p className="hero-split-paragraph text-lg md:text-xl text-[#F7F6F5] mb-10 max-w-2xl mx-auto leading-relaxed font-bold">
+                  Atendemos indústrias que exigem confiabilidade, prazos e engenharia aplicada. Atuação especializada em moldes de rotomoldagem, manutenção e montagem industrial.
                 </p>
-
                 {/* Botões */}
-                <div className="hero-buttons flex flex-col sm:flex-row gap-4 mb-14 justify-center">
-                  <a href="#contato" className="magnetic-btn group relative flex items-center justify-center gap-3 bg-[#E35205] text-white px-8 py-4 rounded-xl font-bold text-[15px] shadow-[0_10px_20px_-10px_rgba(37,99,235,0.6)] hover:shadow-[0_20px_40px_-10px_rgba(37,99,235,0.6)] hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                <div className="hero-buttons flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+                  <a href="#contato" className="magnetic-btn group relative flex items-center justify-center gap-3 bg-[#E35205] text-white px-8 py-4 rounded-xl font-bold text-[15px] shadow-[0_10px_20px_-10px_rgba(227,82,5,0.6)] hover:shadow-[0_20px_40px_-10px_rgba(227,82,5,0.6)] hover:-translate-y-1 transition-all duration-300 overflow-hidden">
                     <div className="absolute inset-0 bg-[#C24503] translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out" />
-                    <span className="relative z-10 font-black tracking-wide">Orçamento Técnico</span>
+                    <span className="relative z-10 font-black tracking-wide">Solicitar Orçamento Técnico</span>
                     <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform duration-200" />
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1s_forwards]" />
                   </a>
-                  <a href="#servicos" className="flex items-center justify-center gap-2 bg-[#1A1A1A]/80 backdrop-blur-sm border-2 border-[#333333] text-[#F7F6F5] px-8 py-4 rounded-xl font-bold text-[15px] hover:bg-[#262626] hover:border-[#E35205] hover:text-white transition-all duration-200 shadow-lg shadow-black/20">
-                    Explorar Capacidades
+                  <a href="https://wa.me/5547988382276" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-[#1A1A1A]/80 backdrop-blur-sm border-2 border-[#333333] text-[#F7F6F5] px-8 py-4 rounded-xl font-bold text-[15px] hover:bg-[#262626] hover:border-[#E35205] hover:text-white transition-all duration-200 shadow-lg shadow-black/20">
+                    Enviar projeto para análise
                   </a>
+                </div>
+
+                <div className="max-w-3xl mx-auto mb-14">
+                  <p className="text-sm md:text-base text-[#CCCCCC] leading-relaxed text-center font-medium opacity-90">
+                    A <span className="text-white font-bold">METAL MACH</span> entrega soluções para a indústria. Somos especialista em desenvolvimento e fabricação de moldes de chapa para rotomoldagem, reparo e manutenção de moldes de chapa e também moldes de alumínio fundido. Trabalhamos com manutenção industrial e revisão de máquinas industriais, soldagem, montagem, consultoria técnica e desenvolvimento de projetos personalizados.
+                  </p>
                 </div>
 
                 {/* Estatísticas com contador */}
@@ -560,7 +647,8 @@ export default function App() {
                 <div className="h-px w-8 bg-[#E35205]" />
                 <span className="text-[#E35205] font-bold text-sm tracking-wider uppercase">Nossos Serviços</span>
               </div>
-              <h2 className="text-3xl md:text-4xl font-extrabold text-white">Soluções modulares para cenários exigentes.</h2>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">Soluções industriais para quem precisa de resultado.</h2>
+              <p className="text-[#999999] text-base md:text-lg max-w-xl">Atendemos empresas que exigem fornecedores técnicos, confiáveis e organizados, com comunicação clara e execução profissional.</p>
             </div>
           </div>
 
@@ -615,10 +703,10 @@ export default function App() {
                   <h3 className="text-2xl font-bold mb-6 text-white leading-tight">Perfil de Clientes Atendidos</h3>
                   <ul className="space-y-5">
                     {[
-                      "Indústrias de Rotomoldagem",
-                      "Fabricantes de Máquinas e Bens de Capital",
+                      "Indústrias de Rotomoldagem e Transformação",
+                      "Fabricantes de Máquinas e Equipamentos",
                       "Setores de Manutenção Industrial",
-                      "Engenharias Integradoras"
+                      "Engenharias e Integradores"
                     ].map((client, i) => (
                       <li key={i} className="flex items-start gap-4 group">
                         <div className="w-1.5 h-1.5 rounded-full bg-[#FF9557] mt-2.5 flex-shrink-0 group-hover:scale-150 transition-transform duration-200" />
@@ -637,7 +725,7 @@ export default function App() {
                 <span className="text-[#FF8A47] font-bold text-sm tracking-wider uppercase">Vantagem Competitiva</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-extrabold mb-10 text-white leading-tight reveal">
-                Engenharia que fala a <br className="hidden md:block" />linguagem do chão de fábrica.
+                Engenharia que fala a linguagem <br className="hidden md:block" />técnica do chão de fábrica.
               </h2>
 
               <div className="grid sm:grid-cols-2 gap-x-6 gap-y-8">
@@ -666,8 +754,8 @@ export default function App() {
         <div className="img-seta hidden md:block" aria-hidden="true" />
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
           <div className="text-center max-w-2xl mx-auto mb-20 reveal">
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-white tracking-tight">Arquitetura de Qualidade</h2>
-            <p className="text-[#999999] font-medium">Método testado para eliminar retrabalhos e garantir precisão na entrega.</p>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-white tracking-tight">PROCESSO DE TRABALHO</h2>
+            <p className="text-[#999999] font-medium">Como garantimos qualidade e previsibilidade em cada etapa.</p>
           </div>
 
           <div className="relative">
@@ -690,6 +778,111 @@ export default function App() {
                   <p className="text-sm text-[#999999] font-medium max-w-[180px] leading-relaxed">{step.desc}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* === PORTFÓLIO === */}
+      <section id="portfolio" className="py-24 bg-[#050505] relative overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+          <div className="text-center max-w-3xl mx-auto mb-20 reveal">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="h-px w-8 bg-[#E35205]" />
+              <span className="text-[#E35205] font-bold text-sm tracking-wider uppercase">Projetos & Execuções</span>
+              <div className="h-px w-8 bg-[#E35205]" />
+            </div>
+            <h2 className="text-3xl md:text-5xl font-extrabold mb-6 text-white tracking-tight">Portfólio de Soluções</h2>
+            <p className="text-[#999999] text-base md:text-lg font-medium">
+              Conheça nossa expertise através de projetos reais desenvolvidos com rigor técnico e foco em resultados para a indústria.
+            </p>
+          </div>
+
+          <div className="flex flex-col lg:flex-row gap-12">
+            {/* Menu de Categorias Lateral */}
+            <div className="lg:w-1/3 flex flex-col gap-3 reveal">
+              <div className="mb-8 hidden lg:block">
+                <span className="text-white/20 font-black text-6xl tabular-nums block mb-4">CATEGORIAS</span>
+              </div>
+              <div className="flex lg:flex-col overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 gap-3 no-scrollbar snap-x">
+                {GALLERY.map((category) => (
+                  <button
+                    key={category.id}
+                    onClick={() => setActiveCategory(category.id)}
+                    className={`flex-shrink-0 lg:w-full text-left p-5 rounded-2xl border transition-all duration-300 group snap-center ${
+                      activeCategory === category.id 
+                        ? 'bg-[#E35205] border-[#E35205] shadow-[0_10px_30px_-10px_rgba(227,82,5,0.4)]' 
+                        : 'bg-[#111111] border-[#222222] hover:border-[#333333]'
+                    }`}
+                  >
+                    <div className="flex items-center gap-4">
+                      <span className={`text-sm font-black tabular-nums transition-colors ${
+                        activeCategory === category.id ? 'text-white' : 'text-[#666666] group-hover:text-[#999999]'
+                      }`}>
+                        {category.id}
+                      </span>
+                      <div className={`h-px w-4 transition-colors ${
+                        activeCategory === category.id ? 'bg-white/40' : 'bg-[#333333]'
+                      }`} />
+                      <span className={`text-sm md:text-base font-bold transition-colors ${
+                        activeCategory === category.id ? 'text-white' : 'text-[#999999] group-hover:text-white'
+                      }`}>
+                        {category.title}
+                      </span>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Conteúdo da Categoria Ativa */}
+            <div className="lg:w-2/3">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeCategory}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -20 }}
+                  transition={{ duration: 0.4, ease: "easeOut" }}
+                  className="space-y-10"
+                >
+                  <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-white/10 pb-10">
+                    <div className="max-w-xl">
+                      <h3 className="text-2xl md:text-4xl font-black text-white mb-4 leading-tight">{activeCategoryData.title}</h3>
+                      <p className="text-[#999] font-medium leading-relaxed text-lg">{activeCategoryData.subtitle}</p>
+                    </div>
+                    <div className="bg-[#111] border border-[#222] px-6 py-3 rounded-2xl flex items-center gap-3">
+                      <div className="w-2 h-2 rounded-full bg-[#E35205] animate-pulse" />
+                      <span className="text-sm font-black text-white uppercase tracking-widest">{activeCategoryData.images.length} FOTOS</span>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {activeCategoryData.images.map((img, imgIdx) => (
+                      <motion.div 
+                        key={imgIdx}
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: imgIdx * 0.1 }}
+                        className="group relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#111] border border-[#222] shadow-2xl shadow-black/40"
+                      >
+                        <img 
+                          src={img} 
+                          alt={`${activeCategoryData.title} - ${imgIdx + 1}`}
+                          className="w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
+                        <div className="absolute inset-0 flex flex-col justify-end p-8 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                          <span className="text-[#E35205] font-black text-xs uppercase tracking-widest mb-2">Engenharia de Moldes</span>
+                          <p className="text-white font-bold text-lg">{activeCategoryData.title}</p>
+                        </div>
+                        {/* Overlay effect border */}
+                        <div className="absolute inset-4 border border-white/0 group-hover:border-white/10 rounded-2xl transition-all duration-500 pointer-events-none" />
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              </AnimatePresence>
             </div>
           </div>
         </div>
@@ -750,17 +943,17 @@ export default function App() {
                 <div className="w-8 h-8 bg-[#E35205] rounded-lg flex items-center justify-center text-white shadow-sm">
                   <Settings className="w-4 h-4" />
                 </div>
-                <span className="text-lg font-bold tracking-tight text-white">METAL MACH</span>
+                <span className="text-lg font-bold tracking-tight text-white">METAL MACH <span className="text-[9px] opacity-40 ml-1">M&M SC SOLUÇÕES LTDA</span></span>
               </div>
               <p className="text-sm text-[#999999] leading-relaxed mb-6 font-medium">
-                Excelência usinada. Especialistas em fabricação rigorosa e soluções construtivas para a indústria.
+                Nossa estrutura é enxuta, eficiente e focada em entregar exatamente o que foi especificado para moldes, manutenção e soluções metálicas — com qualidade e responsabilidade técnica.
               </p>
             </div>
 
             <div>
               <h5 className="font-bold mb-6 text-white">Competências</h5>
               <ul className="space-y-3 text-sm text-[#CCCCCC] font-medium">
-                {["Centro de Usinagem", "Engenharia de Moldes", "Manutenção Estrutural", "Laudos Técnicos"].map(item => (
+                {["Fabricação de Moldes", "Manutenção Industrial", "Engenharia Industrial", "Consultoria Técnica"].map(item => (
                   <li key={item}><span className="hover:text-[#E35205] cursor-pointer transition-colors duration-150 block">{item}</span></li>
                 ))}
               </ul>
@@ -771,11 +964,11 @@ export default function App() {
               <ul className="space-y-4 text-sm text-[#CCCCCC] font-medium">
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-[#666666] flex-shrink-0 mt-0.5" />
-                  <span className="leading-snug">Av. dos Imigrantes, 1147, Sala 02<br />Centro Sul, Schroeder - SC</span>
+                  <span className="leading-snug">Av. dos Imigrantes, 1147, Sala 02<br />Bairro Centro Sul, Schroeder - SC | 89275-000</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#666666] flex-shrink-0" />
-                  <span>metalmachbr@gmail.com</span>
+                  <span>moldesantacatarina@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -788,16 +981,16 @@ export default function App() {
                 </div>
                 <p className="text-sm text-[#CCCCCC] font-medium mb-1">Segunda a Sexta</p>
                 <p className="text-base font-bold text-white mb-6">08:00 – 18:00</p>
-                <div className="h-px w-full bg-gray-200 mb-4" />
-                <p className="text-xs text-[#666666] uppercase tracking-widest font-bold mb-1">CNPJ</p>
-                <p className="text-sm font-medium text-[#E0E0E0]">62.398.156/0001-20</p>
+                <div className="h-px w-full bg-[#222] mb-4" />
+                <p className="text-xs text-[#666666] uppercase tracking-widest font-bold mb-1">M&M SC SOLUÇÕES LTDA</p>
+                <p className="text-[11px] font-medium text-[#999]">CNPJ: 62.398.156/0001-20<br />IE: 25.594.126-9</p>
               </div>
             </div>
           </div>
 
-          <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="pt-8 border-t border-[#222] flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-[#999999] font-medium">© {new Date().getFullYear()} METAL MACH. Todos os direitos reservados.</p>
-            <p className="text-xs text-[#666666] font-medium">M&M SC SOLUÇÕES LTDA.</p>
+            <p className="text-xs text-[#666666] font-medium uppercase tracking-widest">Excelência em Rotomoldagem</p>
           </div>
         </div>
       </footer>
