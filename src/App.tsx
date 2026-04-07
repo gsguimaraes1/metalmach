@@ -436,15 +436,12 @@ export default function App() {
             >
               <div className="relative group">
                 <div className="absolute inset-0 bg-[#E35205]/25 blur-lg rounded-xl group-hover:bg-[#E35205]/50 transition-all duration-500" />
-                <div className="relative w-10 h-10 bg-[#E35205] rounded-xl flex items-center justify-center shadow-lg shadow-[#E35205]/30 cursor-pointer overflow-hidden">
-                  <motion.div
-                    animate={{ rotate: 360 }}
-                    transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
-                  >
-                    <Settings className="w-5 h-5 text-white" />
-                  </motion.div>
-                  {/* Sheen effect */}
-                  <div className="sheen-effect" />
+                <div className="relative w-auto h-10 flex items-center justify-center cursor-pointer">
+                  <img 
+                    src="/logo.png" 
+                    alt="Metal Mach Logo" 
+                    className="h-full w-auto object-contain"
+                  />
                 </div>
               </div>
               <span className="text-xl font-bold tracking-tight">
