@@ -435,8 +435,8 @@ export default function App() {
               className="flex items-center gap-3"
             >
               <div className="relative group">
-                <div className="absolute inset-0 bg-[#E35205]/25 blur-lg rounded-xl group-hover:bg-[#E35205]/50 transition-all duration-500" />
-                <div className="relative w-auto h-10 flex items-center justify-center cursor-pointer">
+                <div className="absolute inset-0 bg-[#E35205]/20 blur-xl rounded-full group-hover:bg-[#E35205]/40 transition-all duration-500" />
+                <div className="relative w-auto h-16 flex items-center justify-center cursor-pointer">
                   <img 
                     src="/logo.png" 
                     alt="Metal Mach Logo" 
@@ -444,9 +444,6 @@ export default function App() {
                   />
                 </div>
               </div>
-              <span className="text-xl font-bold tracking-tight">
-                METAL <span className="text-[#E35205]">MACH</span> <span className="hidden sm:inline-block text-[9px] font-medium opacity-40 ml-1 align-middle uppercase tracking-widest border-l border-white/20 pl-2">M&M SC SOLUÇÕES LTDA</span>
-              </span>
             </motion.div>
 
             {/* Nav links */}
@@ -937,10 +934,13 @@ export default function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
             <div className="lg:col-span-1 pr-6">
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 bg-[#E35205] rounded-lg flex items-center justify-center text-white shadow-sm">
-                  <Settings className="w-4 h-4" />
+                <div className="w-auto h-12 flex items-center justify-center">
+                  <img 
+                    src="/logo.png" 
+                    alt="Metal Mach Logo" 
+                    className="h-full w-auto object-contain"
+                  />
                 </div>
-                <span className="text-lg font-bold tracking-tight text-white">METAL MACH <span className="text-[9px] opacity-40 ml-1">M&M SC SOLUÇÕES LTDA</span></span>
               </div>
               <p className="text-sm text-[#999999] leading-relaxed mb-6 font-medium">
                 Nossa estrutura é enxuta, eficiente e focada em entregar exatamente o que foi especificado para moldes, manutenção e soluções metálicas — com qualidade e responsabilidade técnica.
