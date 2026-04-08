@@ -85,19 +85,19 @@ const GALLERY = [
     id: "01",
     title: "Fabricação de Moldes para Rotomoldagem",
     subtitle: "Projetos desenvolvidos com precisão dimensional e foco em durabilidade",
-    images: ["/portifolio/01/0004-escalada.webp", "/portifolio/01/001-escalada.webp", "/portifolio/01/002-escalada.webp", "/portifolio/01/003-escalada.webp", "/portifolio/01/005-escalada.webp", "/portifolio/01/WhatsApp Image 2026-01-22 at 12.47.03.webp"]
+    images: ["/portifolio/01/0004-escalada.webp", "/portifolio/01/001-escalada.webp", "/portifolio/01/002-escalada.webp", "/portifolio/01/003-escalada.webp"]
   },
   {
     id: "02",
     title: "Desenvolvimento Técnico de Moldes",
     subtitle: "Da análise do projeto à entrega pronta para produção",
-    images: ["/portifolio/02/00-cerca.webp", "/portifolio/02/02-cerca.webp", "/portifolio/02/03-cerca.webp", "/portifolio/02/04-cerca.webp", "/portifolio/02/05-cerca.webp"]
+    images: ["/portifolio/02/00-cerca.webp", "/portifolio/02/02-cerca.webp"]
   },
   {
     id: "03",
     title: "Manutenção e Recuperação de Moldes",
     subtitle: "Reparo estrutural, ajustes e melhoria de desempenho produtivo",
-    images: ["/portifolio/03/00-reparo-polimento.webp", "/portifolio/03/02-reparo-planicidade-flange.webp", "/portifolio/03/02-reparo-porta-molde-solda.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.47.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.48 (1).webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.52.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.47.07 (1).webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.47.07.webp", "/portifolio/03/WhatsApp Image 2026-01-22.webp"]
+    images: ["/portifolio/03/00-reparo-polimento.webp", "/portifolio/03/02-reparo-planicidade-flange.webp", "/portifolio/03/02-reparo-porta-molde-solda.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.47.webp", "/portifolio/03/WhatsApp Image 2026-01-22 at 12.46.48 (1).webp", "/portifolio/03/WhatsApp Image 2026-01-22.webp"]
   },
   {
     id: "04",
@@ -127,7 +127,7 @@ const GALLERY = [
     id: "08",
     title: "Montagem e Ajuste Final de Moldes",
     subtitle: "Validação dimensional e preparação para operação",
-    images: ["/portifolio/08/00-tanque-200.webp", "/portifolio/08/01-tanque-200.webp", "/portifolio/08/02-tanque-200.webp", "/portifolio/08/05-tanque-200.webp", "/portifolio/08/06-tanque200.webp"]
+    images: ["/portifolio/08/00-tanque-200.webp", "/portifolio/08/01-tanque-200.webp", "/portifolio/08/02-tanque-200.webp", "/portifolio/08/05-tanque-200.webp"]
   },
   {
     id: "09",
