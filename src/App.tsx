@@ -149,9 +149,9 @@ function useScrollReveal() {
     // Removemos as transições CSS padrão para que o GSAP as domine
     gsap.set('.reveal', { transition: 'none' });
 
-    // Configura TextMotion com SplitType apenas garantindo a renderização correta
-    const titleText = new SplitType('.hero-split-title', { types: 'chars' });
-    const orangeText = new SplitType('.hero-split-orange', { types: 'chars' });
+    // Configura TextMotion com SplitType garantindo rappers de palavras para evitar quebras
+    const titleText = new SplitType('.hero-split-title', { types: 'words,chars' });
+    const orangeText = new SplitType('.hero-split-orange', { types: 'words,chars' });
     const paragraphText = new SplitType('.hero-split-paragraph', { types: 'words' });
 
     // Animação de entrada Avançada (Hero)
@@ -555,10 +555,10 @@ export default function App() {
           ))}
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div
             style={{ y: heroY, opacity: heroOpacity }}
-            className="flex flex-col items-center justify-center text-center max-w-4xl mx-auto"
+            className="flex flex-col items-center justify-center text-center max-w-5xl mx-auto"
           >
             {/* Conteúdo principal */}
             <div className="w-full relative z-20 hero-content-anim">
@@ -579,15 +579,15 @@ export default function App() {
                 </div>
 
                 {/* Título com animação de texto */}
-                <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] mb-6 text-white flex flex-col items-center gap-2">
+                <h1 className="text-[1.65rem] xs:text-[2.2rem] sm:text-[3rem] md:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 text-white flex flex-col items-center gap-2 px-1">
                   <span className="block hero-split-title text-center">Fabricação de Moldes para Rotomoldagem</span>
-                  <span className="block flex flex-wrap justify-center items-center gap-x-4">
+                  <span className="block flex flex-wrap justify-center items-center gap-x-3 sm:gap-x-4">
                     <span className="text-[#E35205] hero-split-orange">&amp;</span>
                     <span className="text-[#E35205] hero-split-orange">Manutenção Industrial.</span>
                   </span>
                 </h1>
 
-                <p className="hero-split-paragraph text-lg md:text-xl text-[#F7F6F5] mb-10 max-w-2xl mx-auto leading-relaxed font-bold">
+                <p className="hero-split-paragraph text-base sm:text-lg md:text-xl text-[#F7F6F5] mb-10 max-w-2xl mx-auto leading-relaxed font-bold px-2">
                   Atendemos indústrias que exigem confiabilidade, prazos e engenharia aplicada. Atuação especializada em moldes de rotomoldagem, manutenção e montagem industrial.
                 </p>
                 {/* Botões */}

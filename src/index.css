@@ -14,7 +14,7 @@
 }
 
 @theme {
-  /* --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif; */
+  --breakpoint-xs: 375px;
 }
 
 html {
@@ -156,6 +156,22 @@ body {
   100% {
     transform: scale(1.08) rotate(6deg);
   }
+}
+
+/* Fix para quebra de palavras na Hero */
+.hero-split-title, 
+.hero-split-orange,
+.hero-split-paragraph {
+  text-wrap: balance;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+
+.hero-split-title .word,
+.hero-split-orange .word {
+  display: inline-block !important;
+  white-space: nowrap !important;
 }
 
 /* Partículas flutuantes */
