@@ -613,8 +613,8 @@ export default function App() {
                 <div className="flex flex-wrap justify-center gap-10 pt-8 border-t border-gray-300/60 w-full max-w-3xl mx-auto">
                   {[
                     { value: 10, suffix: '+', label: 'anos de mercado' },
-                    { value: 300, suffix: '+', label: 'projetos entregues' },
-                    { value: 100, suffix: '%', label: 'foco B2B industrial' },
+                    { value: 3, suffix: '+', label: 'fabricação de moldes' },
+                    { value: 100, suffix: '%', label: 'foco B2B' },
                   ].map(({ value, suffix, label }) => (
                     <div key={label} className="flex flex-col items-center">
                       <span className="text-3xl font-black text-white tabular-nums drop-shadow-sm">
@@ -961,7 +961,11 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-[#666666] flex-shrink-0" />
-                  <span>moldesantacatarina@gmail.com</span>
+                  <span>metalmachbr@gmail.com</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <Mail className="w-5 h-5 text-[#666666] flex-shrink-0" />
+                  <span>financeirometalmach@gmail.com</span>
                 </li>
               </ul>
             </div>
